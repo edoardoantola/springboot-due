@@ -10,7 +10,7 @@ import com.majorbit.springboot_due.model.Booking;
 
 @Repository
 public class DAOBooking implements IDAOBooking {
-
+    
     public List<Booking> getAllBookings() {
         Connection c = null;
         PreparedStatement p = null;
